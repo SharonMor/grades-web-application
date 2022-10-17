@@ -3,3 +3,7 @@ mongo-db-data
 credentials.json
 # eslint cache
 .eslintcache 
+build
+.env
+app.yaml
+prod-env.yaml

@@ -26,17 +26,12 @@ const StatisticsPage = () => {
         data["semester" + step + "Gpa"] !== null &&
         data["semester" + step + "Gpa"] !== 0
       ) {
-        console.log(
-          "semester" + step + "Gpa is" + data["semester" + step + "Gpa"]
-        );
         chartLabelsBuild.push("Semester " + step);
         chartDataBuild.push(data["semester" + step + "Gpa"]);
       }
     }
     setChartLabels(chartLabelsBuild);
     setChartData(chartDataBuild);
-    console.log(chartLabelsBuild);
-    console.log(chartDataBuild);
   };
 
   const state = {
@@ -55,10 +50,9 @@ const StatisticsPage = () => {
     const getSchoolGpa = async () => {
       const token = user && (await user.getIdToken());
       const headers = token ? { authtoken: token } : {};
-      console.log(user);
+
       if (user) {
         const schoolGpa = await axios.get("/api/statistics", { headers });
-        console.log(schoolGpa.data);
         setMySchoolGpa(schoolGpa.data[0].studentsGpa);
         setMySchoolName(schoolGpa.data[0].school);
         setMySchoolNumOfStudents(schoolGpa.data[0].studentsNum);
@@ -71,19 +65,15 @@ const StatisticsPage = () => {
           ? (ownGpaNanSituation = 0)
           : (ownGpaNanSituation = ownGpa.data);
         setMyGpa(ownGpaNanSituation);
-        console.log("my gpa is" + ownGpa.data);
         const semesestersDetails = await axios.get("/api/statistics", {
           headers,
           params: { command: "getUserSemesters" },
         });
         updateChart(semesestersDetails.data);
-        // console.log(isNaN(semesestersDetails.data.semester2Gpa));
-        // data.semester1Gpa
       }
     };
     if (!isLoading) {
       getSchoolGpa();
-      console.log("Statistics Loaded");
     }
   }, [isLoading, user]);
 
