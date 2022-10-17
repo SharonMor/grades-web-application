@@ -1,0 +1,184 @@
+[
+    { label: "Other", value: "Other" },
+    {
+      label: "Braude College of Engineering",
+      value: "Braude College of Engineering",
+    },
+    {
+      label: "Technion – Israel Institute of Technology",
+      value: "Technion – Israel Institute of Technology",
+    },
+    {
+      label: "Ben-Gurion University of the Negev",
+      value: "Ben-Gurion University of the Negev",
+    },
+    { label: "Tel-Aviv University", value: "Tel-Aviv University" },
+    {
+      label: "The Open University of Israel",
+      value: "The Open University of Israel",
+    },
+    {
+      label: "The Hebrew University of Jerusalem",
+      value: "The Hebrew University of Jerusalem",
+    },
+    {
+      label: "Afeka Tel Aviv Academic College of Engineering",
+      value: "Afeka Tel Aviv Academic College of Engineering",
+    },
+
+    {
+      label: "Al-Qasemi Academic College of Education",
+      value: "Al-Qasemi Academic College of Education",
+    },
+    { label: "Ariel University", value: "Ariel University" },
+    { label: "Ashkelon Academic College", value: "Ashkelon Academic College" },
+    {
+      label: "Azrieli - College of Engineering Jerusalem",
+      value: "Azrieli - College of Engineering Jerusalem",
+    },
+    { label: "Bar-Ilan University", value: "Bar-Ilan University" },
+    { label: "Beit Berl College", value: "Beit Berl College" },
+
+    {
+      label: "Bezalel – Academy of Arts and Design",
+      value: "Bezalel – Academy of Arts and Design",
+    },
+
+    {
+      label: "David Yellin College of Education",
+      value: "David Yellin College of Education",
+    },
+    {
+      label: "Emuna Ephrata – Academic College",
+      value: "Emuna Ephrata – Academic College",
+    },
+    {
+      label: "Givat Washington Academic College of Education",
+      value: "Givat Washington Academic College of Education",
+    },
+    {
+      label: "Gordon College of Education",
+      value: "Gordon College of Education",
+    },
+    {
+      label: "Hemdat HaDarom – College",
+      value: "Hemdat HaDarom – College",
+    },
+    {
+      label: "Holon Institute of Technology",
+      value: "Holon Institute of Technology",
+    },
+    { label: "Jerusalem College", value: "Jerusalem College" },
+    {
+      label: "Kaye Academic College of Education",
+      value: "Kaye Academic College of Education",
+    },
+    {
+      label: "Kibbutzim College",
+      value: "Kibbutzim College",
+    },
+    {
+      label: "Kinneret Academic College on The Sea of Galilee",
+      value: "Kinneret Academic College on The Sea of Galilee",
+    },
+    { label: "Lev Academic Center", value: "Lev Academic Center" },
+    {
+      label: "Levinsky-Wingate Academic Center",
+      value: "Levinsky-Wingate Academic Center",
+    },
+    {
+      label: "Lifshitz College of Education",
+      value: "Lifshitz College of Education",
+    },
+    {
+      label: "Max Stern Academic College of Emek Yezreel",
+      value: "Max Stern Academic College of Emek Yezreel",
+    },
+    { label: "Netanya Academic College", value: "Netanya Academic College" },
+    {
+      label: "Ohalo Academic College - Katzrin",
+      value: "Ohalo Academic College - Katzrin",
+    },
+    { label: "Ono Academic College", value: "Ono Academic College" },
+    {
+      label: "Oranim Academic College of Education",
+      value: "Oranim Academic College of Education",
+    },
+    { label: "Peres Academic Center", value: "Peres Academic Center" },
+    { label: "Reichman University", value: "Reichman University" },
+    { label: "Ruppin Academic Center", value: "Ruppin Academic Center" },
+    {
+      label: "Schechter Institute of Jewish Studies",
+      value: "Schechter Institute of Jewish Studies",
+    },
+    { label: "Shalem College", value: "Shalem College" },
+    {
+      label: "Shenkar – Engineering. Design. Art",
+      value: "Shenkar – Engineering. Design. Art",
+    },
+
+    { label: "Tel-Aviv University", value: "Tel-Aviv University" },
+    { label: "Tel-Hai Academic College", value: "Tel-Hai Academic College" },
+    {
+      label: "The Academic Center of Law and Business",
+      value: "The Academic Center of Law and Business",
+    },
+    {
+      label: "The Academic College of Tel-Aviv – Yaffo",
+      value: "The Academic College of Tel-Aviv – Yaffo",
+    },
+    {
+      label: "The Achva Academic College ",
+      value: "The Achva Academic College ",
+    },
+    {
+      label: "The Arab Academic College of Education",
+      value: "The Arab Academic College of Education",
+    },
+    {
+      label: "The Carmel Academic Center",
+      value: "The Carmel Academic Center",
+    },
+    {
+      label: "The College of Law and Business",
+      value: "The College of Law and Business",
+    },
+    {
+      label: "The College of Management – Academic Studies",
+      value: "The College of Management – Academic Studies",
+    },
+    {
+      label: "The College of Sakhnin for Teacher Education",
+      value: "The College of Sakhnin for Teacher Education",
+    },
+    {
+      label: "The Hadassah Academic College",
+      value: "The Hadassah Academic College",
+    },
+
+    {
+      label: "The Israel Academic College in Ramat Gan",
+      value: "The Israel Academic College in Ramat Gan",
+    },
+    {
+      label: "The Jerusalem Academy of Music and Dance",
+      value: "The Jerusalem Academy of Music and Dance",
+    },
+    {
+      label: "The Open University of Israel",
+      value: "The Open University of Israel",
+    },
+    {
+      label: "The Sami Shamoon College of Engineering",
+      value: "The Sami Shamoon College of Engineering",
+    },
+    {
+      label: "The Sapir Academic College",
+      value: "The Sapir Academic College",
+    },
+    { label: "The University of Haifa", value: "The University of Haifa" },
+    {
+      label: "The Weizmann Institute of Science",
+      value: "The Weizmann Institute of Science",
+    },
+  ];
