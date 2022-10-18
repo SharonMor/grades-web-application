@@ -1,1 +1,58 @@
-# grades-app-project
+# Grades React App
+
+[Live App](https://grades-app-c415d.ey.r.appspot.com/)
+
+### Description:
+An end-to-end GPA Calculator And More Web App, using React for the frontend, Node + Express for the backend and mongoDB for the database.
+
+### About The Project:
+I wanted to do this since I`ve started to learn 'react', It was a great exercise, mainly on the frontend UI.
+
+Data for this website built by the users themselves, users can input their grades by their credits and semesters and recieve data about their academic experience,
+such as GPA (overall/yearly/semesterly), how many users from their academic instituition are using this app and what is their average GPA. in addition they can see
+how they are doing in their academic instituition. lastly, users can edit grades or add new courses in order to plan their future.
+
+The project was deployed with Google Cloud web hosting service.
+
+## Pages:
+### Sign In:
+Display login form with an option to register using email/password or login with a Google account.
+
+### Sign Up:
+Display registering form (email, password and academic instituition).
+
+### Home :
+Display buttons-menu in order to navigate users to grades or statistics page. (auto-navigate to login if account isn't logged in).
+
+### Grades:
+Display Course Name/ Grade / Credits form by semester and year.
+users can input their own data and edit or delete it.
+
+### Statistics:
+Display user's statistics:
+Gpa/ Yearly Gpa/ Semestrly Gpa Chart (using ChartJS library) / How many users from their school are using this app and what is their average gpa.
+
+### Frameworks / Dependencies:
+Front-end:
+react.js
+Tailwindcss
+React icons
+
+### Back-end:
+Node.js
+Express
+dotenv
+Mongoose
+Axios
+
+### Authentication:
+Firebase Auth
+
+### Database:
+MongoDb
+
+### Host:
+Google Cloud Host Service
+
+### API Docs:
+Server Endpoint - (https://grades-app-c415d.ey.r.appspot.com/)[https://grades-app-c415d.ey.r.appspot.com/]
