@@ -1,11 +1,11 @@
-# Grades React App
+Grades React App
 
-[Live App](https://grades-app-c415d.ey.r.appspot.com/)
+Live App - (https://grades-app-c415d.ey.r.appspot.com/)
 
-### Description:
+Description:
 An end-to-end GPA Calculator And More Web App, using React for the frontend, Node + Express for the backend and mongoDB for the database.
 
-### About The Project:
+About The Project:
 I wanted to do this since I`ve started to learn 'react', It was a great exercise, mainly on the frontend UI.
 
 Data for this website built by the users themselves, users can input their grades by their credits and semesters and recieve data about their academic experience,
@@ -14,45 +14,45 @@ how they are doing in their academic instituition. lastly, users can edit grades
 
 The project was deployed with Google Cloud web hosting service.
 
-## Pages:
-### Sign In:
+Pages:
+ Sign In:
 Display login form with an option to register using email/password or login with a Google account.
 
-### Sign Up:
+Sign Up:
 Display registering form (email, password and academic instituition).
 
-### Home :
+Home :
 Display buttons-menu in order to navigate users to grades or statistics page. (auto-navigate to login if account isn't logged in).
 
-### Grades:
+Grades:
 Display Course Name/ Grade / Credits form by semester and year.
 users can input their own data and edit or delete it.
 
-### Statistics:
+Statistics:
 Display user's statistics:
 Gpa/ Yearly Gpa/ Semestrly Gpa Chart (using ChartJS library) / How many users from their school are using this app and what is their average gpa.
 
-### Frameworks / Dependencies:
+Frameworks / Dependencies:
 Front-end:
 react.js
 Tailwindcss
 React icons
 
-### Back-end:
+Back-end:
 Node.js
 Express
 dotenv
 Mongoose
 Axios
 
-### Authentication:
+Authentication:
 Firebase Auth
 
-### Database:
+Database:
 MongoDb
 
-### Host:
+Host:
 Google Cloud Host Service
 
-### API Docs:
-Server Endpoint - (https://grades-app-c415d.ey.r.appspot.com/)[https://grades-app-c415d.ey.r.appspot.com/]
+API Docs:
+Server Endpoint - (https://grades-app-c415d.ey.r.appspot.com/)
