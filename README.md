@@ -1,4 +1,3 @@
-
 Grades React App
 Check out the live app here.
 
