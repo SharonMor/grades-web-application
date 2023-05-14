@@ -1,58 +1,51 @@
+
 Grades React App
+Check out the live app here.
 
-Live App - (https://grades-app-c415d.ey.r.appspot.com/)
+Overview
+This is a comprehensive GPA Calculator and academic tracking Web App built with a React frontend, Node + Express backend, and MongoDB as the database.
 
-Description:
-An end-to-end GPA Calculator And More Web App, using React for the frontend, Node + Express for the backend and mongoDB for the database.
+Motivation
+The idea for this project stemmed from my desire to practically apply my knowledge of React. It served as an excellent exercise, particularly in frontend UI development.
 
-About The Project:
-I wanted to do this since I`ve started to learn 'react', It was a great exercise, mainly on the frontend UI.
+Functionality
+The data for this application is user-generated. Users can:
 
-Data for this website built by the users themselves, users can input their grades by their credits and semesters and recieve data about their academic experience,
-such as GPA (overall/yearly/semesterly), how many users from their academic instituition are using this app and what is their average GPA. in addition they can see
-how they are doing in their academic instituition. lastly, users can edit grades or add new courses in order to plan their future.
+Input their grades, credits, and semesters
+Receive insights about their academic performance, such as overall, yearly, and semesterly GPAs
+See the number of users from their academic institution using the app and their average GPA
+Compare their performance with peers in their institution
+Edit grades or add new courses for future planning
+Deployment
+The project is hosted via Google Cloud web hosting service.
 
-The project was deployed with Google Cloud web hosting service.
+Pages
+Sign In: Login form with email/password and Google account options
+Sign Up: Registration form requesting email, password, and academic institution
+Home: Navigation menu guiding users to grades or statistics page. (Auto-navigation to login if account isn't logged in)
+Grades: Form to input and edit course details (name, grade, credits) by semester and year
+Statistics: User's academic statistics: GPA, Yearly GPA, Semesterly GPA chart (using ChartJS library), and institutional statistics
+Tech Stack and Dependencies
+Frontend:
 
-Pages:
- Sign In:
-Display login form with an option to register using email/password or login with a Google account.
+React.js
+Tailwind CSS
+React Icons
+Backend:
 
-Sign Up:
-Display registering form (email, password and academic instituition).
-
-Home :
-Display buttons-menu in order to navigate users to grades or statistics page. (auto-navigate to login if account isn't logged in).
-
-Grades:
-Display Course Name/ Grade / Credits form by semester and year.
-users can input their own data and edit or delete it.
-
-Statistics:
-Display user's statistics:
-Gpa/ Yearly Gpa/ Semestrly Gpa Chart (using ChartJS library) / How many users from their school are using this app and what is their average gpa.
-
-Frameworks / Dependencies:
-Front-end:
-react.js
-Tailwindcss
-React icons
-
-Back-end:
 Node.js
 Express
 dotenv
 Mongoose
 Axios
-
 Authentication:
+
 Firebase Auth
-
 Database:
-MongoDb
 
-Host:
+MongoDB
+Hosting:
+
 Google Cloud Host Service
-
-API Docs:
-Server Endpoint - (https://grades-app-c415d.ey.r.appspot.com/)
+API Documentation
+Server Endpoint: https://grades-app-c415d.ey.r.appspot.com/
